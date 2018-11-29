@@ -1,0 +1,23 @@
+{
+    "name": "c2498168786/auto-test",
+    "description": "基于swagger-php的自动化测试",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "ghost0716",
+            "email": "1374818845@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AutoTest\\": "./src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.2",
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}
